@@ -1,4 +1,4 @@
-define(['angular', 'underscore', 'dataTables', '../module'], function (angular, _) {
+define(['angular', 'underscore', 'dataTables', '../../module'], function (angular, _) {
   'use strict';
 
   angular

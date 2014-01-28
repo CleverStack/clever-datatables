@@ -1,4 +1,4 @@
-define(['angular', 'underscore', 'moment', '../module'], function(angular, _, moment){
+define(['angular', 'underscore', 'moment', '../../module'], function(angular, _, moment){
   'use strict';
 
   angular

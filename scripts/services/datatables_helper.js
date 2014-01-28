@@ -1,4 +1,4 @@
-define(['angular', 'underscore', 'moment', '../module'],function (ng, _, moment) {
+define(['angular', 'underscore', 'moment', '../../module'],function (ng, _, moment) {
   'use strict';
 
   ng.module('cs_datatables.services')

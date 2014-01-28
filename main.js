@@ -4,16 +4,16 @@ define([
   'cs_common',
 
   // Directives
-  './scripts/datatables_directive',
-  './scripts/datatables_date_filter_directive',
-  './scripts/datatables_directive',
-  './scripts/datatables_filters_directive',
-  './scripts/datatables_global_filter_directive',
-  './scripts/datatables_range_filter_directive',
-  './scripts/datatables_select_filter_directive',
-  './scripts/datatables_text_filter_directive',
+  './scripts/directives/datatables',
+  './scripts/directives/datatables_date_filter',
+  './scripts/directives/datatables',
+  './scripts/directives/datatables_filters',
+  './scripts/directives/datatables_global_filter',
+  './scripts/directives/datatables_range_filter',
+  './scripts/directives/datatables_select_filter',
+  './scripts/directives/datatables_text_filter',
 
   // Services
-  './scripts/datatables_helper_service'
+  './scripts/services/datatables_helper'
 
 ], function() {});
