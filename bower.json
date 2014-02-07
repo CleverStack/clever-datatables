@@ -1,6 +1,6 @@
 {
   "name": "clever-datatables",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "authors": [
     "Daniel Durante <me@danieldurante.com>"
   ],
@@ -12,6 +12,12 @@
     "cleverstack-module",
     "cleverstack-frontend"
   ],
+  "dependencies": {
+    "datatables": "~1.9.4"
+  },
+  "resolutions": {
+    "jquery": ">= 1.9.0"
+  },
   "license": "MIT",
   "homepage": "https://github.com/CleverStack/clever-datatables",
   "ignore": [
